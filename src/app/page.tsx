@@ -9,7 +9,7 @@ import ContactMe from "@/components/ContactMe";
 import { AiFillHome } from "react-icons/ai";
 
 
-export default function Home() {
+export function Home() {
   return (
     <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory
      overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20
@@ -44,6 +44,7 @@ export default function Home() {
         <footer className="sticky bottom-5 w-full cursor-pointer">
           <div className="flex items-center justify-center">
           <AiFillHome className="h-10 w-8 text-white/20 hover:text-white transition-colors duration-300 "/>
+          <AiFillHome className="h-10 w-8  "/>
           </div>
         </footer>
       </Link>
